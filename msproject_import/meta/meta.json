@@ -1,0 +1,12 @@
+{
+  "id": "msproject_import",
+  "title": "MS Project import",
+  "group": "3 Advanced",
+  "description": "How to import data from an MS Project file.",
+  "htmlPath": "index.html",
+  "cssPath": "resources/app.css",
+  "className": "Gnt.examples.msproject_import.view.MSProjectGantt",
+  "tags": "MS Project,import",
+  "hasAppFolder": true,
+  "openExternalUrl": "../msproject_import/"
+}

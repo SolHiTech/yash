@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!--Ext and ux styles -->
+    <link href="https://www.bryntum.com/examples/extjs-6.5.0/build/classic/theme-triton/resources/theme-triton-all.css"
+          rel="stylesheet" type="text/css"/>
+
+	<!--Scheduler styles-->
+    <link href="../../resources/css/sch-gantt-triton-all.css?ver=5.1.11" rel="stylesheet" type="text/css" />
+
+	<!--Implementation specific styles-->
+    <link href="../css/examples.css?ver=5.1.11" rel="stylesheet" type="text/css" />
+    <link href="resources/app.css?ver=5.1.11" rel="stylesheet" type="text/css" />
+
+	<!--Ext lib and UX components-->
+    <script src="https://www.bryntum.com/examples/extjs-6.5.0/build/ext-all.js" crossorigin="anonymous" type="text/javascript"></script>
+
+    <script src="../../gnt-all-debug.js?ver=5.1.11" type="text/javascript"></script>
+
+    <script src="../examples-shared.js?ver=5.1.11" type="text/javascript"></script>
+
+    <!--Application files-->
+    <script src="app.js?ver=5.1.11" type="text/javascript"></script>
+
+    <title>Loading data from MS Project</title>
+</head>
+<body>
+<div class="details-text">
+    <h3>Loading data from MS Project</h3>
+    <p>This is a simple example showing how to import data from an MS Project file directly to the Ext Gantt.
+    With the help of the <a href="http://mpxj.sourceforge.net/">MPXJ library</a>, we have built a Java based application which extracts data from .mpp files.
+    This gives us the ability to extract Tasks, Resources, Assignments, Dependencies and Columns. The basic MSP columns will be converted to proper Ext Gantt ones (if Ext Gantt has an analog). The JAVA code after compiling builds a standalone JAR package and the only dependency is Java JDK 7+.</p>
+    <p>For more information about the import feature, please refer to the <a target="_blank" href="README.txt">README.txt</a> file.
+    To try this example, you can use your own MPP project file or download this sample MPP: <a class="mpp" href="AdvancedExample.mpp">AdvancedExample.mpp</a>.</p>
+</div>
+</body>
+</html>
